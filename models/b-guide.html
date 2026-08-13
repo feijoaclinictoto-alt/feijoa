@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FEIJOA · K-뷰티 가이드</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <style>
+    body { margin:0; font-family:"Noto Sans KR",sans-serif; background:#f3ebe3; color:#2b2420; }
+    a { text-decoration:none; color:inherit; }
+    header { display:flex; justify-content:space-between; padding:16px 6vw; background:#fff; align-items:center; }
+    .logo { font-weight:700; }
+    .hero { margin:20px 6vw; background:linear-gradient(90deg,#3d4f3a,#7d9a78); color:#fff; border-radius:20px; padding:36px; }
+    .hero h1 { margin:0 0 8px; font-size:28px; }
+    .btns { display:flex; gap:10px; margin-top:18px; flex-wrap:wrap; }
+    .btns a { background:#fff; color:#222; padding:10px 14px; border-radius:10px; font-size:13px; font-weight:500; }
+    .btns a.ka { background:#fee500; }
+    .trust { display:flex; gap:10px; flex-wrap:wrap; margin:0 6vw 20px; }
+    .trust span { background:#fff; padding:8px 12px; border-radius:999px; font-size:12px; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:14px; padding:0 6vw 80px; }
+    .card { background:#fff; border-radius:16px; overflow:hidden; }
+    .ph { height:120px; background:#d9cfc4; }
+    .card div { padding:14px; }
+    .card b { display:block; }
+    .card small { color:#7a7068; }
+    .float { position:fixed; right:16px; bottom:80px; display:flex; flex-direction:column; gap:8px; }
+    .float a { background:#3d4f3a; color:#fff; padding:10px 12px; border-radius:12px; font-size:12px; }
+    .back { position:fixed; left:16px; bottom:16px; background:#fff; padding:8px 12px; border-radius:999px; font-size:12px; }
+    @media (max-width:800px) { .grid { grid-template-columns:1fr 1fr; } }
+  </style>
+</head>
+<body>
+  <a class="back" href="../index.html">← 모델 목록</a>
+  <header>
+    <div class="logo">FEIJOA</div>
+    <span style="font-size:13px;">KO · EN · 시술찾기</span>
+  </header>
+  <section class="hero">
+    <h1>하이데라바드에서 만나는 K-피부과</h1>
+    <p>고민을 고르면 시술이 보입니다. 상담은 한국어로.</p>
+    <div class="btns">
+      <a href="#">WhatsApp 상담</a>
+      <a class="ka" href="#">카카오 문의 (연결 예정)</a>
+      <a href="#">지금 예약</a>
+    </div>
+  </section>
+  <div class="trust">
+    <span>의사 직접 상담</span><span>한국어 가능</span><span>Banjara Hills</span><span>당일 상담 문의</span>
+  </div>
+  <section class="grid">
+    <article class="card"><div class="ph"></div><div><b>수분 · 장벽</b><small>메디컬 페이셜 · 상담 후 안내</small></div></article>
+    <article class="card"><div class="ph"></div><div><b>여드름</b><small>염증 · 자국 · 재발 관리</small></div></article>
+    <article class="card"><div class="ph"></div><div><b>기미 · 잡티</b><small>색소 레이저 상담</small></div></article>
+    <article class="card"><div class="ph"></div><div><b>리프팅</b><small>탄력 · 윤곽</small></div></article>
+    <article class="card"><div class="ph"></div><div><b>모발 · 두피</b><small>탈모 검사 · 케어</small></div></article>
+    <article class="card"><div class="ph"></div><div><b>스킨부스터</b><small>광채 · 결 개선</small></div></article>
+  </section>
+  <div class="float">
+    <a href="#">전화</a>
+    <a href="#">예약</a>
+  </div>
+</body>
+</html>

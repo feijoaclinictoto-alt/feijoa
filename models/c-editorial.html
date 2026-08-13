@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FEIJOA · 에디토리얼</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Noto+Sans+KR:wght@300;400;500&display=swap" rel="stylesheet" />
+  <style>
+    body { margin:0; background:#f3eee4; color:#2c3329; font-family:"Noto Sans KR",sans-serif; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { display:grid; grid-template-columns:140px 1fr 1fr; min-height:100vh; }
+    .spine { writing-mode:vertical-rl; letter-spacing:.4em; font-family:"Cormorant Garamond",serif; font-size:42px; padding:40px 24px; border-right:1px solid #d7d0c3; }
+    .story { padding:64px 48px; }
+    .story h1 { font-family:"Cormorant Garamond",serif; font-weight:500; font-size:48px; margin:0 0 16px; }
+    .story p { max-width:38ch; color:#5b6356; line-height:1.8; }
+    .photo { background:linear-gradient(#4a5c45,#8aa07c); display:flex; align-items:flex-end; padding:32px; color:#f3eee4; }
+    nav { position:fixed; top:24px; right:32px; display:flex; gap:18px; font-size:13px; }
+    .back { position:fixed; left:16px; bottom:16px; background:#fff; padding:8px 12px; border-radius:999px; font-size:12px; }
+    @media (max-width:900px) { .wrap { grid-template-columns:1fr; } .spine { writing-mode:horizontal-tb; } }
+  </style>
+</head>
+<body>
+  <a class="back" href="../index.html">← 모델 목록</a>
+  <nav>
+    <a href="#">스토리</a>
+    <a href="#">시그니처</a>
+    <a href="#">원장 인사</a>
+    <a href="#">예약</a>
+  </nav>
+  <div class="wrap">
+    <div class="spine">FEIJOA</div>
+    <section class="story">
+      <p style="letter-spacing:.2em;font-size:12px;">SKIN & HAIR · HYDERABAD</p>
+      <h1>페조아처럼,<br />맑고 향기로운 피부.</h1>
+      <p>페조아는 초록 껍질 안에 부드러운 과육을 품은 과일입니다. 겉으로 드러내지 않는 건강함, 그 결을 클리닉의 언어로 옮겼습니다. 한국 손님이 낯선 도시에서도 ‘우리 피부과’처럼 머물 수 있도록.</p>
+      <p style="margin-top:28px;font-size:14px;">시그니처 · 글래스 프로그램 · 두피 케어 · 예약 문의</p>
+    </section>
+    <div class="photo">인테리어 / 브랜드 사진 자리</div>
+  </div>
+</body>
+</html>
