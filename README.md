@@ -1,12 +1,19 @@
-# FEIJOA
+# FEIJOA Skin Hair Body Clinic
 
-Hyderabad clinic — Korean website design models.
+Korean-inspired clinic website for **FEIJOA (페이조아)** in Banjara Hills, Hyderabad.
 
-Open `index.html` in a browser to compare four homepage directions:
+## Preview locally
 
-- **A. Gangnam glass-skin** (recommended starting point)
-- **B. K-beauty treatment guide**
-- **C. Feijoa editorial / brand**
-- **D. Medical trust (bilingual)**
+Open `index.html` in a browser (or any static host).
 
-Placeholder copy only. Real clinic details will replace sample text when provided.
+- Home: `index.html`
+- Full treatment menu: `expertise.html`
+
+## Clinic facts in this build
+
+- Address: Road No. 1, Banjara Hills, beside Karachi Bakery, Hyderabad 500034
+- Phone / WhatsApp: +91 99555 17772
+- Hours: Tuesday–Sunday, 11 AM–8 PM (Monday closed)
+- Maps: https://maps.app.goo.gl/fdTzNpxa2Hceby3z9?g_st=iw
+
+Doctor portraits and before/after photos are reserved as empty galleries until files are provided.
